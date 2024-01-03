@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="carritodos.js"></script>
+    <link rel="stylesheet" href="carritodos.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+        <div class="productos">
+<div class="fila">
+            <div class="producto" id="jersey pareja">
+                <img src="jersey pareja.jpg" alt="">
+                <h3 >jersey pareja</h3>
+                <p>Precio: $12.00</p>
+                <button onclick="agregarAlCarrito('jersey pareja', 12.00)">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto" id="jersey n-m-g">
+                <img src="jersey a.jpg" alt="">
+                <h3>jersey n-m-g</h3>
+                <p>Precio: $10.00</p>
+                <button onclick="agregarAlCarrito('jersey n-m-g', 10.00)">Agregar al carrito</button>
+            </div>
+</div>
+<div class="fila">
+            <div class="producto" id="jersey gris">
+                <img src="jersey gris.jpg" alt="">
+                <h3 >jersey pareja</h3>
+                <p>Precio: $12.00</p>
+                <button onclick="agregarAlCarrito('jersey gris', 12.00)">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto" id="jersey a">
+                <img src="jersey Gyabnw.jpg" alt="">
+                <h3>jersey a</h3>
+                <p>Precio: $10.00</p>
+                <button onclick="agregarAlCarrito('jersey a', 10.00)">Agregar al carrito</button>
+            </div>
+            </div>
+
+            <div class="fila">
+            <div class="producto" id="jersey verde">
+                <img src="jersey verde.jpg" alt="">
+                <h3 >jersey verde</h3>
+                <p>Precio: $12.00</p>
+                <button onclick="agregarAlCarrito('jersey verde', 12.00)">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto" id="jersey Gyabnw">
+                <img src="jersey Gyabnw.jpg" alt="">
+                <h3>jersey Gyabnw</h3>
+                <p>Precio: $10.00</p>
+                <button onclick="agregarAlCarrito('jersey Gyabnw', 10.00)">Agregar al carrito</button>
+            </div>
+         </div>
+         <div class="fila">
+            <div class="producto" id="jersey zetiny">
+                <img src="jersey zetiny.jpg" alt="">
+                <h3 >jersey zetiny</h3>
+                <p>Precio: $12.00</p>
+                <button onclick="agregarAlCarrito('jersey zetiny', 12.00)">Agregar al carrito</button>
+            </div>
+    
+            <div class="producto" id="jersey colores">
+                <img src="jersey varios colores.jpg" alt="">
+                <h3>jersey colores</h3>
+                <p>Precio: $10.00</p>
+                <button onclick="agregarAlCarrito('jersey colores', 10.00)">Agregar al carrito</button>
+            </div>
+              </div>
+        </div>
+
+        <div class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: $<span id="totalCarrito">0.00</span></p>
+        </div>
+       
+        <button onclick="limpiarCarrito()">Limpiar Carrito</button>
+        <script src="carritodos.js"></script>
+    </body>
+    </html>
+    
+    
